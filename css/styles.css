@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Poppins:wght@400;500;600&family=Ubuntu:wght@300;400;500;700&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat' !important;
 }
+
+/* Title Section */
 
 #title {
     background-color: #ff4c68;
@@ -43,6 +45,34 @@ body {
 }
 
 .title-img {
+    max-width: 200px;
     transform: rotate(25deg);
-    width: 60%;
+}
+
+/* Features Section */
+
+#features {
+    text-align: center;
+}
+
+#features .container {
+    padding: 8% 10%;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#features p {
+    color: #8F8F8F;
+}
+
+#features .features-icon {
+    color: #EF8172;
+    font-size: 5rem;
+}
+
+#features .features-icon:hover {
+    color: #ff4c68;
 }
