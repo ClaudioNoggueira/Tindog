@@ -5,17 +5,32 @@ body {
     font-family: 'Montserrat' !important;
 }
 
-/* Title Section */
-
-#title {
-    background-color: #ff4c68;
-}
-
-#title h1 {
+h1 {
     color: #FFF;
     font-size: 3rem;
     font-weight: 900;
     line-height: 1.5;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    color: #8F8F8F;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
 }
 
 #title .container-fluid {
@@ -53,19 +68,7 @@ body {
 
 #features {
     text-align: center;
-}
-
-#features .container {
-    padding: 8% 10%;
-}
-
-#features h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-#features p {
-    color: #8F8F8F;
+    padding: 8% 15%;
 }
 
 #features .features-icon {
@@ -75,4 +78,33 @@ body {
 
 #features .features-icon:hover {
     color: #ff4c68;
+}
+
+/* Testimonials section  */
+#testimonials {
+    color: #FFF;
+    background-color: #EF8172;
+
+    text-align: center;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+.carousel-item {
+    padding: 8% 15%;
+}
+
+#press {
+    background-color: #EF8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
 }
