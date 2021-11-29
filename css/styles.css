@@ -122,6 +122,29 @@ p {
     padding: 3% 2%;
 }
 
+/* Call To Action Section */
+#cta {
+    background-color: #ff4c68;
+    padding: 8% 15%;
+    text-align: center;
+}
+
+/* Footer Section */
+#footer {
+    background-color: #FFF;
+    padding: 8% 15%;
+    text-align: center;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    margin: 20px 10px;
+}
+
+#footer p {
+    margin-top: 10px;
+}
+
 @media (max-width: 1028px) {
     #title {
         text-align: center;
