@@ -3,23 +3,10 @@
 
 body {
     font-family: 'Montserrat' !important;
+    text-align: center;
 }
 
-h1 {
-    color: #FFF;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
-
-h2 {
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-size: 1.5rem;
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
@@ -27,28 +14,46 @@ p {
     color: #8F8F8F;
 }
 
-/* Title Section */
+/* CONTAINERS */
+.container-fluid {
+    padding: 8% 15%;
+}
 
-#title {
+/* SECTIONS */
+.colored-section {
     background-color: #ff4c68;
+    color: #FFF;
 }
 
-#title .container-fluid {
-    padding: 3% 15% 7%;
+.white-section {
+    background-color: #FFF;
 }
 
-#title .navbar {
+/* HEADINGS */
+.big-heading {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.navbar {
     padding: 0;
     padding-bottom: 4.5rem;
 }
 
-#title .navbar-brand {
+.navbar-brand {
     font-family: 'Ubuntu';
     font-size: 2.5rem;
     font-weight: 500;
 }
 
-#title .navbar-nav {
+.navbar-nav {
     font-size: 1.2rem;
     font-weight: 400;
     gap: 18px;
@@ -57,6 +62,12 @@ p {
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
 }
 
 .title-img {
@@ -69,26 +80,30 @@ p {
 /* Features Section */
 
 #features {
-    background-color: #FFF;
-    text-align: center;
-    padding: 8% 15%;
     position: relative;
 }
 
-#features .features-icon {
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.features-icon {
     color: #EF8172;
     font-size: 5rem;
 }
 
-#features .features-icon:hover {
+.features-icon:hover {
     color: #ff4c68;
 }
 
 /* Testimonials section  */
 #testimonials {
-    color: #FFF;
     background-color: #EF8172;
-    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-img {
@@ -97,14 +112,10 @@ p {
     width: 10%;
 }
 
-.carousel-item {
-    padding: 8% 15%;
-}
-
+/* Press Section */
 #press {
     background-color: #EF8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 
 .press-logo {
@@ -113,29 +124,16 @@ p {
 }
 
 /* Pricing Section */
-#pricing {
-    text-align: center;
-    padding: 8% 15%;
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
-/* Call To Action Section */
-#cta {
-    background-color: #ff4c68;
-    padding: 8% 15%;
-    text-align: center;
-}
-
 /* Footer Section */
-#footer {
-    background-color: #FFF;
-    padding: 8% 15%;
-    text-align: center;
-}
-
 .footer-icon {
     font-size: 1.5rem;
     margin: 20px 10px;
